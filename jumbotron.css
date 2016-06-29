@@ -1,0 +1,1017 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  background-color: #fff;
+}
+
+.disclaimer-header-text {
+    color: #212121;
+    /*font-weight: 400;*/
+	margin-bottom: 20px;
+}
+
+.disclaimer-body-text {
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
+	margin-bottom: 40px;
+}
+
+.partners-page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid transparent;
+}
+
+
+.partners-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid transparent;
+}
+
+.partners-header-text {
+    color: #212121;
+    /*font-weight: 400;*/
+	margin-bottom: 20px;
+}
+
+.partners-team-header-text {
+    color: #212121;
+    /*font-weight: 400;*/
+}
+
+.partners-team-body-text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 21px;
+	/*margin-bottom: 40px;*/
+}
+
+.pub-header-text {
+    color: #212121;
+    /*font-weight: 400;*/
+	margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .pub-header-text {
+    color: #212121;
+    /*font-weight: 400;*/
+	margin-bottom: 20px;
+}
+}
+
+.pub-authors {
+    color: #212121;
+    /*font-weight: 400;*/
+}
+
+.all-author-info {
+    color: #757575;
+    font-size: 14px;
+    line-height: 21px;
+	/*margin-bottom: 40px;*/
+}
+
+.disc-headings {
+    color: #212121;
+    /*font-weight: 400;*/
+	/*margin-bottom: 20px;*/
+}
+
+.multiple-partners {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.site-search {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 24px;
+}
+
+.exon-searchbox {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #eee;
+    background-image: none;
+    border: none;
+    border-radius: 16px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.exon-searchbutton {
+    border: none;
+    border-radius: 16px;
+    padding: 7px 12px;
+    background-color: #eee;
+}
+
+.exon-searchbutton:hover {
+    border: none;
+    border-radius: 16px;
+    padding: 7px 12px;
+    background-color: #eee;
+}
+
+.search-icon {
+    color: #888;
+}
+
+.search-icon:hover {
+    color: #0082ca;
+}
+
+.tdpx-discover-page {
+	margin-top: 90px;
+}
+
+.category-sidebar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .category-sidebar {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+}
+
+.disc-hr {
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.discover-category {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border: 0;
+	border-bottom: 1px solid #eee;
+	color: #212121;
+	/*font-weight: 300;*/
+}
+
+.data-content {
+  margin-top: 25px;
+}
+
+.analytics-content {
+  margin-top: 25px;
+}
+
+.page-content-first {
+  margin-top: 75px;
+}
+
+.disclaimer-content {
+  margin-top: 100px;
+}
+
+/* Header and Navbar
+------------------------- */
+
+.top-bar {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.site-topbar {
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #d6d7d9;
+}
+
+.site-topbar .btn {
+	font-size: 8px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #d6d7d9;
+	padding-left: 0px;
+	padding-right: 24px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.site-topbar .btn-link:hover,
+.site-topbar .btn-link:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	outline: 0;
+	transition: all 0.2s;
+}
+
+.navbar-inverse {
+    background-image: url("NIH-Graphic.png");
+	background-color: #112e51;
+    border-color: transparent;
+	background-size: cover;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 400px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #d6d7d9;
+	font-size: 16px;
+	/*font-weight: 500;*/
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	transition: all 0.2s;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+     background-color: transparent; 
+     border-color: transparent; 
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+     background-color: transparent; 
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.tb-countries {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.country-flags {
+    /*margin-right: 10px;*/
+}
+
+.country-name {
+    font-size: 16px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 26px;
+    margin-right: 8px;
+    margin-bottom: 26px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+  width: 18px;
+  height: 1px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.my-carousel {
+    padding-top: 30px;
+     padding-bottom: 0px; 
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+.carousel .carousel-inner .bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+	background-image: url("tb-hero-mobile.png");
+	background-color: #112e51;
+	background-position: center center;
+}
+
+.carousel .carousel-inner .bg2 {
+	background-image: url("medicine.jpg");
+	background-color: #112e51;
+	background-position: center center;
+}
+
+.carousel-control {
+    position: absolute;
+     top: 50%;  
+	 bottom: 50%;
+    left: 0;
+     width: 15%; 
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+     background-color: transparent; 
+    
+}
+
+.carousel-control.left {
+     background-image: none;  
+    filter: none; 
+}
+
+.carousel-control.right {
+     background-image: none;  
+    filter: none; 
+}
+
+.slide-holder {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .my-carousel {
+    padding-top: 30px;
+     padding-bottom: 0px; 
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+.carousel .carousel-inner .bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+	background-image: url("tb-hero.png");
+	background-color: #112e51;
+	background-position: center center;
+}
+
+.carousel .carousel-inner .bg2 {
+	background-image: url("medicine.jpg");
+	background-color: #112e51;
+	background-position: center center;
+}
+
+.carousel-control {
+    position: absolute;
+     top: 50%;  
+	 bottom: 50%;
+    left: 0;
+     width: 15%; 
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+     background-color: transparent; 
+    
+}
+
+.carousel-control.left {
+     background-image: none;  
+    filter: none; 
+}
+
+.carousel-control.right {
+     background-image: none;  
+    filter: none; 
+}
+
+.slide-holder {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+}
+
+/* CUSTOM THUMBNAILS
+------------------------- */
+
+.nih-card {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 0px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out; 
+}
+
+.nih-card:hover,
+.nih-card:focus {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-bottom: 1px solid #F92B61;
+  border-radius: 0px;
+  cursor: pointer;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.nih-card > img,
+.nih-card a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a.nih-card:hover,
+a.nih-card:focus,
+a.nih-card.active {
+  border-color: #337ab7;
+}
+
+.nih-card .caption {
+  padding: 9px;
+  color: #757575;
+}
+
+.featured-tutorials {
+	position: relative;
+	margin-bottom: 0px;
+	background-color: #e0e0e0;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.tdpx-featured-tuts {
+  position: relative;
+  min-width: 0;
+  line-height: 1.42857143;
+  background-color: #eee;
+   border: 0;
+   margin-top: 60px;
+   /*border-bottom: 2px solid transparent;*/
+  border-radius: 0px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.tdpx-featured-tuts:hover,
+.tdpx-featured-tuts:focus {
+  position: relative;
+  min-width: 0;
+  line-height: 1.42857143;
+  background-color: #eee;
+  border: 0;
+  margin-top: 60px;
+   /*border-bottom: 2px solid #9c27b0;*/
+  border-radius: 0px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.tdpx-featured-tuts .tutorial-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #212121;
+  white-space: nowrap;
+  width: 100%;                   
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.block-desc {
+  text-align: center;
+  font-size: 16px;
+  color: #212121;
+}
+
+.thumb-img {
+    max-height: 180px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.thumb-title {
+  /*text-align: center;*/
+  white-space: nowrap;
+  width: 100%;                   
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thumb-title-link {
+  /*text-align: center;*/
+  text-decoration: none;
+  color: #757575;
+}
+
+.thumb-title-link:hover,
+.thumb-title-link:focus {
+  /*text-align: center;*/
+  text-decoration: none;
+  color: #757575;
+}
+
+/*.thumb-hr {
+    width: 50%;
+    border-top: 1px solid black;
+    margin: 5px auto;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    display: block;
+}*/
+
+.thumb-hr-long {
+    border-top: 1px solid #212121;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.thumb-hr-short {
+    border-top: 1px solid #212121;
+	margin-top: 15px;
+    margin-bottom: 15px;
+	width: 25%;
+}
+
+.thumb-icons {
+  text-align: center;
+}
+
+.thumb-icons-item {
+  color: #bdbdbd;
+}
+
+.thumb-icons-item:hover,
+.thumb-icons-item:focus {
+  color: #757575;
+}
+
+.page-content {
+   margin-top: 40px;
+}
+
+/* Featurettes
+------------------------- */
+
+.row-partner {
+    background-color: #f1f1f1;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.row-data {
+    background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.row-analytics {
+    background-color: #f1f1f1;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.row-execution {
+    background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.fimages {
+    /*border: 10px solid #205493;*/
+}
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  border: 1px solid transparent;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 36px;
+	font-weight: 600;
+	color: #212121;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+	margin-top: 120px;
+  }
+}
+
+/* Data Page
+------------------------- */
+
+.view-more {
+	text-align: center;
+}
+
+.partners {
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+.nav-pills > li > a {
+  border-radius: 0px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #3333ff;
+  background-color: transparent;
+  border-bottom: 1px solid #3333ff;
+}
+
+.nav-pills > li > a {
+    color: #212121;
+    text-decoration: none;
+	background-color: transparent;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+	border-bottom: 1px solid #eee;
+	background-color: transparent;
+	color: #205493;
+}
+
+.tb-country-team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.columns-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sponsor-logos-area {
+	padding-left: 0px;
+}
+
+.sponsor-logos {
+	margin-bottom: 20px;
+}
+
+/* HOVER STYLES */
+
+/* Icon Forward */
+.hvr-icon-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.hvr-icon-forward:before {
+  content: "\f105";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+
+/* SITE FOOTER
+-------------------------------------------------- */
+
+.main-niaid-footer {
+	background-color: #112e51;
+	margin-top: 60px;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-links-heading {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.footer-links {
+	font-size: 14px;
+	color: #aeb0b5;
+	line-height: 1.8;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	transition:.2s linear;
+}
+
+.footer-nih-tagline {
+	font-size: 12px;
+	color: #aeb0b5;
+}
+
+.footer-address {
+	font-size: 14px;
+	color: #aeb0b5;
+}
+
+.footer-columns-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sidebar-column-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-hr {
+  border-top: 1px solid #aeb0b5;
+}
+
+
+/* Equal height columns and row no gutter down here for now
+-------------------------------------------------- */
+.eqlzr {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+ 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.eqh-cols {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+/* Code */
+
+@media (min-width: 768px) {
+  .code-page-content {
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+}
+
+.bcbb-codes {
+    position: relative;
+	min-height: 480px;
+	display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 1.42857143;
+    background-color: #eee;
+    border: 0;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.codes-desc {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	line-height: 24px;
+	text-align: center;
+  font-size: 16px;
+  color: #212121;
+}
+
+
+.codes-download {
+	background-color: #00a6d2;
+	color: #fff;
+	text-transform: uppercase;
+	/*font-weight: 700;*/
+	border: 0;
+	border-radius: 0px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.codes-download:hover,
+.codes-download:focus {
+	background-color: #205493;
+	color: #fff;
+	text-transform: uppercase;
+	/*font-weight: 700;*/
+	border: 0;
+	border-radius: 0px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.codes-title {
+    padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 15px;
+	line-height: 1.4;
+	text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #212121;
+  margin-top: 20px;
+}
+
+.codes-bottom {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	
+}
+
+.codes-bottom-row {
+	padding-top: 15px;
+	/*border-top: 1px solid red;*/
+}
+
+
