@@ -16,8 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="flag-icon.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="assets/css/flag-icon.css" rel="stylesheet">
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,7 +40,7 @@
         
          <a href="http://www.hhs.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">U.S. Department of Health & Human Services</a>
          <a href="http://www.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institutes of Health</a>
-         <a href="http://www.niaid.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institute of Allergy and Infectious Diseases</a>
+         <!--<a href="http://www.niaid.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institute of Allergy and Infectious Diseases</a>-->
         
         
       </div>
@@ -55,19 +55,18 @@
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="#"><img alt="Brand" src="itpp-logo.png" width="72.68" height="44.88"></a>-->
-          <!--<a class="navbar-brand" href="#">International Tuberculosis Portals Program</a>-->
+          
           <a class="navbar-brand" href="index.html">
-            <img alt="Brand" src="logo.png" width="243" height="50">
+            <img alt="Brand" src="assets/img/logo.png" width="243" height="50">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="partners.html">Partners</a></li>
               <li><a href="data.html">Data</a></li>
               <li><a href="analytics.html">Analytics</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="partners.html">Partners</a></li>
+              <li><a href="publications.html">Execution</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Countries <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                 <ul class="dropdown-menu tb-countries">
@@ -114,11 +113,11 @@ It is not the intention of TB Portals to provide specific medical advice to any 
 provided, and the TB Portals team urges users to consult with a qualified physician for diagnosis and for answers to personal 
 health questions.</p>
 
-<h3 class="disclaimer-header-text">Confidential information</h3>
+<h3 class="disclaimer-header-text">Confidential Information</h3>
 <p class="disclaimer-body-text">The TB Portals team does not want to receive confidential or proprietary information from you through our web sites.  
 Please note that any information or material uploaded to TB Portals will be deemed NOT to be confidential.<br><br>  
 
-The X-Ray or CT image file that the user may upload to the TB Portals DEPot is for comparison purposes only and these files are 
+The X-ray or CT image file that the user may upload to the TB Portals DEPot is for comparison purposes only and these files are 
 not retained.  Note that the DICOM image format contains a header that is capable of storing patient data.  The end user is 
 responsible to check for and remove these data prior to upload.<br><br>
 
@@ -132,7 +131,7 @@ with your name on it; or (c) we are required to do so by law.</p>
 
 <h3 class="disclaimer-header-text">Use of Web Browsers</h3>
 <p class="disclaimer-body-text">The NIAID TB Portals web sites support the current release of Chrome, Firefox and Safari, and the previous two versions. 
-It also supports IE9 and newer versions. "Supports" means that NIAID TB Portals will actively work to identify and fix bugs.</p>
+It also supports Internet Explorer version 9 and newer versions. "Supports" means that NIAID TB Portals will actively work to identify and fix bugs.</p>
 
 <h3 class="disclaimer-header-text">Disclaimer of Warranty</h3>
 <p class="disclaimer-body-text">The TB Portals team maintains the sites as a service to the TB research community.  
@@ -163,18 +162,13 @@ and prevention or monitoring of a disease or medical condition.</p>
           <h6 class="footer-links-heading">connect</h6>
           
           <ul class="list-inline footer-links">
-            <!--<li><a class="footer-links" href="#"><i class="fa fa-facebook fa-lg"></i></a></li>-->
-            <li><a class="footer-links" href="#">Twitter <i class="fa fa-twitter fa-lg"></i></a></li>
-            <!--<li><a class="footer-links" href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>-->
-            <!--<li><a class="footer-links" href="#"><i class="fa fa-commenting fa-lg"></i></a></li>-->
-            <li><a class="footer-links" href="#">YouTube <i class="fa fa-youtube-play fa-lg"></i></a></li>
-            <!--<li><a class="footer-links" href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>-->
-            <!--<li><a class="footer-links" href="#"><i class="fa fa-pinterest-p fa-lg"></i></a></li>-->
+            <li><a class="footer-links" href="https://twitter.com/niaidbioit" target="_blank">Twitter <i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a class="footer-links" href="https://www.youtube.com/user/NIAIDBioinformatics" target="_blank">YouTube <i class="fa fa-youtube-play fa-lg"></i></a></li>
           </ul>
           
           <address>
             <h6 class="footer-links-heading">e-mail</h6>
-            <a class="footer-links" href="mailto: depot_support@niaid.nih.gov e-mail">depot_support@niaid.nih.gov e-mail</a>
+            <a class="footer-links" href="mailto: depot_support@niaid.nih.gov" target="_top">depot_support@niaid.nih.gov</a>
           </address>
           
           
@@ -186,14 +180,9 @@ and prevention or monitoring of a disease or medical condition.</p>
           <h6 class="footer-links-heading">links</h6>
           
           <ul class="list-unstyled footer-links">
-            <li><a class="footer-links" href="#">NIAID Website</a></li>
-            <li><a class="footer-links" href="#">Contact NIAID</a></li>
-            <!--<li><a class="footer-links" href="#">Help</a></li>-->
-            <!--<li><a class="footer-links" href="#">Accessibility</a></li>-->
-            <li><a class="footer-links" href="#">Privacy Policy</a></li>
+            <li><a class="footer-links" href="https://www.niaid.nih.gov" target="_blank">NIAID Website</a></li>
+            <li><a class="footer-links" href="https://www.nih.gov/web-policies-notices" target="_blank">Privacy Policy</a></li>
             <li><a class="footer-links" href="disclaimer.html">Disclaimer</a></li>
-            <!--<li><a class="footer-links" href="#">Website Links &amp; Policies</a></li>-->
-            <!--<li><a class="footer-links" href="#">FOIA</a></li>-->
           </ul>
         </div><!-- /.col-lg-4 -->
         
@@ -201,63 +190,17 @@ and prevention or monitoring of a disease or medical condition.</p>
         
         
         <div class="col-lg-4">
-          <!--<h6 class="footer-links-heading">related sites</h6>-->
-          
-          <address class="footer-address">
-  			National Institutes of Health (NIH), 9000 Rockville Pike,<br>
-  			Bethesda, Maryland 20892
-		  </address>
-          
-          <p class="footer-nih-tagline">National Institutes of Health. . .Turning Discovery Into Health<sup>&reg;</sup></p>
-          
-          <hr class="footer-hr">
-          
-          <ul class="list-inline">
-            <li><a class="" href="#"><img class="img-responsive" src="usagov-logo-footer.png" width="100" height="30.4" alt="Generic placeholder image"></a></li>
-            <li><a class="" href="#"><img class="img-responsive" src="hhs-logo-footer.png" width="30" height="36" alt="Generic placeholder image"></a></li>
-            <li><a class="" href="#"><img class="img-responsive" src="nih-logo-footer.png" width="48" height="30" alt="Generic placeholder image"></a></li>
-          </ul>
-          
-        </div>
-        
-        <!--<div class="col-lg-4">
-          <h6 class="footer-links-heading">related sites</h6>
+          <h6 class="footer-links-heading">related government sites</h6>
           
           <ul class="list-unstyled footer-links">
-            <li><a class="footer-links" href="#">Pathosystems Resource Integration Center</a></li>
-            <li><a class="footer-links" href="#">Broad Institute</a></li>
-            <li><a class="footer-links" href="#">International Science &amp; Technology Center</a></li>
+            <li><a class="footer-links" href="http://www.niaid.nih.gov" target="_blank">National Institute of Allergy &amp; Infectious Diseases</a></li>
+            <li><a class="footer-links" href="http://www.nih.gov" target="_blank">National Institutes of Health</a></li>
+            <li><a class="footer-links" href="http://www.hhs.gov" target="_blank">U.S. Department of Health &amp; Human Services</a></li>
+            <li><a class="footer-links" href="http://www.usa.gov" target="_blank">USA.gov</a></li>
           </ul>
-        </div>-->
+        </div><!-- /.col-lg-4 -->
+        
       </div><!-- /.row -->
-      
-      <!--<hr class="footer-hr">-->
-      
-      
-      <!--<div class="row">
-        <div class="col-lg-4">
-          <p class="footer-nih-tagline">National Institutes of Health. . .<br>Turning Discovery Into Health<sup>&reg;</sup></p>
-        </div>
-        
-        <hr class="footer-columns-separator visible-xs visible-sm visible-md">
-        
-        <div class="col-lg-4">
-          <address class="footer-address">
-  			National Institutes of Health (NIH), 9000 Rockville Pike,<br>
-  			Bethesda, Maryland 20892
-		  </address>
-        </div>
-        
-        <hr class="footer-columns-separator visible-xs visible-sm visible-md">
-        
-        <div class="col-lg-4">
-          <ul class="list-inline">
-            <li><a class="" href="#"><img class="img-responsive" src="usagov-logo-footer.png" width="100" height="30.4" alt="Generic placeholder image"></a></li>
-            <li><a class="" href="#"><img class="img-responsive" src="hhs-logo-footer.png" width="30" height="36" alt="Generic placeholder image"></a></li>
-            <li><a class="" href="#"><img class="img-responsive" src="nih-logo-footer.png" width="48" height="30" alt="Generic placeholder image"></a></li>
-          </ul>
-        </div>
-       </div>-->
        </div>
       </footer>
 

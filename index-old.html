@@ -40,7 +40,7 @@
         
          <a href="http://www.hhs.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">U.S. Department of Health & Human Services</a>
          <a href="http://www.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institutes of Health</a>
-         <!--<a href="http://www.niaid.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institute of Allergy and Infectious Diseases</a>-->
+         <a href="http://www.niaid.nih.gov" target="_blank" class="btn btn-link hidden-sm hidden-xs">National Institute of Allergy and Infectious Diseases</a>
         
         
       </div>
@@ -63,10 +63,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="partners.html">Partners</a></li>
               <li><a href="data.html">Data</a></li>
               <li><a href="analytics.html">Analytics</a></li>
-              <li><a href="publications.html">Execution</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="partners.html">Partners</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Countries <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                 <ul class="dropdown-menu tb-countries">
@@ -82,65 +82,89 @@
       </div>
     </nav>
     
-    <!-- Jumbotron
+    <!-- Carousel
     ================================================== -->
-    <div class="jumbotron hero">
-    
-      <div class="container">
-        <p class="lead intro">A program of the National Institute of Allergy and Infectious Diseases</p>
-   		<ul class="list-unstyled eqlzr">
-          <li class="col-xs-12 col-sm-6 col-md-3 eqh-cols">
-          <a class="thumbnail custom-cards" href="partners.html">
-          <div class="entry-points"><img class="img-responsive student-avatar" src="assets/img/partners-2.jpg" alt="student image"></div>
-            <div class="caption">
-                <p class="student-name">Partners</p>
-                <hr class="st-card-hr">
-                <!--<p class="student-location">TB Portal Program is maintained by an active multidisciplinary international virtual team, led by NIAID, consisting of physicians and researchers</p>-->
-                <p class="student-location">Learn more</p>
-              </div>
-          </a>
-          </li>
-          
-          <li class="col-xs-12 col-sm-6 col-md-3 eqh-cols">
-          <a class="thumbnail custom-cards" href="data.html">
-          <div class="entry-points"><img class="img-responsive student-avatar" src="assets/img/data.jpg" alt="student image"></div>
-            <div class="caption">
-                <p class="student-name">Data</p>
-                <hr class="st-card-hr">
-                <!--<p class="student-location">Curated de-identified MXDR-TB patient socioeconomic, clinical, radiological, and genomic information</p>-->
-                <p class="student-location">Learn more</p>
-              </div>
-          </a>
-          </li>
-          
-          <li class="col-xs-12 col-sm-6 col-md-3 eqh-cols">
-          <a class="thumbnail custom-cards" href="analytics.html">
-          <div class="entry-points"><img class="img-responsive student-avatar" src="assets/img/analytics.jpg" alt="student image"></div>
-            <div class="caption">
-                <p class="student-name">Analytics</p>
-                <hr class="st-card-hr">
-                <!--<p class="student-location">MXDR-TB Data Exploration Portal (DEPot) will facilitate hypothesis generation and statistical testing</p>-->
-                <p class="student-location">Learn more</p>
-              </div>
-          </a>
-          </li>
-          
-          <li class="col-xs-12 col-sm-6 col-md-3 eqh-cols">
-          <a class="thumbnail custom-cards" href="publications.html">
-          <div class="entry-points"><img class="img-responsive student-avatar" src="assets/img/stm.gif" alt="student image"></div>
-            <div class="caption">
-                <p class="student-name">Execution</p>
-                <hr class="st-card-hr">
-                <!--<p class="student-location">Improve transition from research and data analysis to health care practice, by helping to develop drugs, diagnostics and treatment</p>-->
-                <p class="student-location">Learn more</p>
-              </div>
-          </a>
-          </li>
-          
-          </ul>
+    <div class="jumbotron my-carousel">
+      <div class="container-fluid slide-holder">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      
+      <div class="carousel-inner" role="listbox">
+        
+            
+        <div class="item active">
+          <div class="item bg bg1"></div>
+        </div>
+        
+      </div>
+    </div><!-- /.carousel -->
                 
       </div>
     </div>
+    
+    
+    <div class="container-fluid">
+       <!-- START THE FEATURETTES -->
+
+      
+
+      <div class="row featurette row-partner">
+        <div class="container">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Partners</h2>
+          <p class="lead">TB Portal Program is maintained by an active multidisciplinary international virtual team, 
+          led by NIAID, consisting of physicians and researchers</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block fimages" src="assets/img/partners-2.jpg" alt="Generic placeholder image">
+        </div>
+        </div>
+      </div>
+
+      
+      <div class="row featurette row-data">
+        <div class="container">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Data</h2>
+          <p class="lead">Curated de-identified MXDR-TB patient socioeconomic, clinical, radiological, and genomic information</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block fimages" src="assets/img/data.jpg" alt="Generic placeholder image">
+        </div>
+        </div>
+      </div>
+
+     
+      <div class="row featurette row-analytics">
+        <div class="container">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Analytics</h2>
+          <p class="lead">MXDR-TB Data Exploration Portal (DEPot) will facilitate hypothesis generation and statistical testing</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block fimages" src="assets/img/analytics.jpg" alt="Generic placeholder image">
+        </div>
+        </div>
+      </div>
+
+      
+
+      <div class="row featurette row-execution">
+        <div class="container">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Execution</h2>
+          <p class="lead">Improve transition from research and data analysis to health care practice, by helping to develop drugs, 
+          diagnostics and treatment</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block fimages" src="assets/img/stm.gif" alt="Generic placeholder image">
+        </div>
+        </div>
+      </div>
+
+      
+
+      <!-- /END THE FEATURETTES -->
+      </div>
    
     
     
@@ -183,15 +207,23 @@
         
         
         <div class="col-lg-4">
-          <h6 class="footer-links-heading">related government sites</h6>
           
-          <ul class="list-unstyled footer-links">
-            <li><a class="footer-links" href="http://www.niaid.nih.gov" target="_blank">National Institute of Allergy &amp; Infectious Diseases</a></li>
-            <li><a class="footer-links" href="http://www.nih.gov" target="_blank">National Institutes of Health</a></li>
-            <li><a class="footer-links" href="http://www.hhs.gov" target="_blank">U.S. Department of Health &amp; Human Services</a></li>
-            <li><a class="footer-links" href="http://www.usa.gov" target="_blank">USA.gov</a></li>
+          <address class="footer-address">
+  			National Institutes of Health (NIH), 9000 Rockville Pike,<br>
+  			Bethesda, Maryland 20892
+		  </address>
+          
+          <p class="footer-nih-tagline">National Institutes of Health. . .Turning Discovery Into Health<sup>&reg;</sup></p>
+          
+          <hr class="footer-hr">
+          
+          <ul class="list-inline">
+            <li><a class="" href="https://www.usa.gov" target="_blank"><img class="img-responsive" src="assets/img/usagov-logo-footer.png" width="100" height="30.4" alt="Generic placeholder image"></a></li>
+            <li><a class="" href="http://www.hhs.gov" target="_blank"><img class="img-responsive" src="assets/img/hhs-logo-footer.png" width="30" height="36" alt="Generic placeholder image"></a></li>
+            <li><a class="" href="https://www.nih.gov" target="_blank"><img class="img-responsive" src="assets/img/nih-logo-footer.png" width="48" height="30" alt="Generic placeholder image"></a></li>
           </ul>
-        </div><!-- /.col-lg-4 -->
+          
+        </div>
         
       </div><!-- /.row -->
        </div>
